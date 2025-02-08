@@ -7,8 +7,8 @@
 
 flag := 0
 
-~Alt::
-while GetKeyState("Alt", "P")
+~mouse4::
+while GetKeyState("mouse4", "P")
 {
     if flag != 0
     {
